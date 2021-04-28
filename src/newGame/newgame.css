@@ -1,0 +1,110 @@
+.new{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 60vw;
+    padding: 40px;
+    margin: auto;
+    box-shadow: -1px 1px 6px 4px #d9d9da 
+
+ }
+#dis{
+     background: lightgray;
+     
+ }
+.logo{
+    flex:.4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 90%; 
+}
+.name{
+    flex: .1;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name input{
+    width: 55%;
+    height: 35px;
+    padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid rgb(151, 151, 151);
+}
+.charecter{
+    flex:.6;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.logout{
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    text-decoration: underline;
+}
+.logout:hover{
+    color: blue;
+}
+.sign-in {
+    color: #282c34;
+    background: white;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+.ch{
+    width: 20%;
+}
+.ch img{
+    padding: 10px;
+    margin: 10px;
+}
+.ch img:hover{
+    border-bottom: 3px solid #eeee;
+ 
+}
+#active{
+    box-shadow: -1px 1px 6px 4px #d9d9da;
+    
+}
+.new button {
+    width: 100%;
+    padding: 10px 20px;
+    height: 40px;
+    background-color: #1c2aec;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;;
+}
+.new button:hover{
+    background-color: #0510a8;
+}
+#btn,#place{
+    width: 20%;
+    padding: 10px 20px;
+    height: 40px;
+    background-color: white;
+    color: #0510a8;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;;
+}
+#btn:hover,#place:hover{
+    background-color: rgb(224, 224, 224);
+}

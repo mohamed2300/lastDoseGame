@@ -1,0 +1,15 @@
+.Menu{
+     width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: auto;
+    background: #1c2aec;
+    color: white;
+    font-weight: bold;
+}
+.sction{
+    min-width: 25%;
+    padding:  0 20px ;
+
+}

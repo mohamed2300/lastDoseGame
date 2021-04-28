@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  width: 99vw;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+.Menu{
+  flex: .1;
+}
+.Game{
+  flex:0.8;
+  overflow: hidden;
+}
+.hidden{
+  display: none;
+}
+.notHidden{
+  display: block;
+}
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  
+
+}
+#t{
+  color: gray;
+  padding: 10px;
+  text-decoration: underline;
+  margin: 20px 0;
+}
+.profile img{
+  margin-right: 10px;
+  border-radius: 100px;
+  width: 60px;
+  margin-left: 100px;
+}
+.profile span{
+  display: block;
+
+}
+#timerr{
+  text-align: center;
+  font-weight: bold;
+  font-size: 61px;
+}
+ 
